@@ -200,6 +200,7 @@
 					EE84585C1A5CF04400DB5D00 = {
 						CreatedOnToolsVersion = 6.1.1;
 						DevelopmentTeam = STEU5A4T3A;
+						ProvisioningStyle = Manual;
 					};
 					EE8458711A5CF04400DB5D00 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -475,13 +476,21 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C998C90ABD02154DE5652C16 /* Pods-CircleCI-Sample.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = STEU5A4T3A;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = "CircleCI-Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.twiin.AvalonApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "85795769-e577-41cb-aef2-c47da8af071b";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.twiin.AvalonApp";
 				SWIFT_VERSION = 2.3;
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
 		};
@@ -489,13 +498,21 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4D0D291A53FC832E73E7624E /* Pods-CircleCI-Sample.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = STEU5A4T3A;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = "CircleCI-Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.twiin.AvalonApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "85795769-e577-41cb-aef2-c47da8af071b";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.twiin.AvalonApp";
 				SWIFT_VERSION = 2.3;
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Release;
 		};
