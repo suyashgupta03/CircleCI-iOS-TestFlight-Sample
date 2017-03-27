@@ -9,7 +9,7 @@ machine:
 dependencies:
   override:
     - pod install:
-        timeout: 800
+        timeout: 801
 deployment:
   testflight:
     branch: master
