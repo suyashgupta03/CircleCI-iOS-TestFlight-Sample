@@ -1,0 +1,6 @@
+framework module Pods_CircleCI_Sample {
+  umbrella header "Pods-CircleCI-Sample-umbrella.h"
+
+  export *
+  module * { export * }
+}
