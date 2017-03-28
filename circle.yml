@@ -1,6 +1,6 @@
 machine:
   xcode:
-    version: 8.2
+    version: "8.2"
   environment:
     XCODE_SCHEME: CircleCI-Sample
     XCODE_WORKSPACE: CircleCI-Sample.xcworkspace
