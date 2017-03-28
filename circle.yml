@@ -10,7 +10,7 @@ machine:
     TESTFLIGHT_DIST_LIST: your-dist-list-name
 dependencies:
   pre:
-    - xcrun instruments -w 'iPhone 7 (10.1)' || true
+    - xcrun instruments -w 'iPhone 6 (10.1)' || true
     - sleep 15
   override:
     - pod install:
@@ -23,7 +23,7 @@ test:
         CODE_SIGN_IDENTITY=
         PROVISIONING_PROFILE=
         -sdk iphonesimulator
-        -destination 'platform=iOS Simulator,OS=10.1,name=iPhone 7'
+        -destination 'platform=iOS Simulator,OS=10.1,name=iPhone 6'
         -workspace CircleCI-Sample.xcworkspace
         -scheme "CircleCI-Sample"
         clean build test |
