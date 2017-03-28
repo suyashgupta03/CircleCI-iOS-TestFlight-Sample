@@ -476,7 +476,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C998C90ABD02154DE5652C16 /* Pods-CircleCI-Sample.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: TWIIN, INC. (STEU5A4T3A)";
 				COPY_PHASE_STRIP = YES;
@@ -508,7 +508,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4D0D291A53FC832E73E7624E /* Pods-CircleCI-Sample.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: TWIIN, INC. (STEU5A4T3A)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -539,7 +539,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 25B9B061BA93B1CD6F3ECE8D /* Pods-CircleCI-SampleTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = STEU5A4T3A;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -563,7 +563,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 56B797F7F48FEBBC686A471C /* Pods-CircleCI-SampleTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = STEU5A4T3A;
 				FRAMEWORK_SEARCH_PATHS = (
