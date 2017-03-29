@@ -17,7 +17,6 @@ dependencies:
         timeout: 801
 test:
   override:
-    - set -o pipefail &&
       xcodebuild
         CODE_SIGNING_REQUIRED=NO
         CODE_SIGN_IDENTITY=
@@ -26,6 +25,4 @@ test:
         -destination 'platform=iOS Simulator,OS=10.1,name=iPhone 6'
         -workspace CircleCI-Sample.xcworkspace
         -scheme "CircleCI-Sample"
-        clean build test |
-      tee $CIRCLE_ARTIFACTS/xcode_raw.log |
-      xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results.xml
+        clean build test 
