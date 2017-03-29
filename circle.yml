@@ -17,7 +17,7 @@ dependencies:
         timeout: 801
 test:
   override:
-      xcodebuild
+    - xcodebuild
         CODE_SIGNING_REQUIRED=NO
         CODE_SIGN_IDENTITY=
         PROVISIONING_PROFILE=
