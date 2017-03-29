@@ -28,4 +28,4 @@ test:
         -scheme "CircleCI-Sample"
         clean build test |
       tee $CIRCLE_ARTIFACTS/xcode_raw.log |
-      xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results.
+      xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results.xml
